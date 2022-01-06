@@ -1,0 +1,94 @@
+/** @format */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 70px;
+	background-color: #888;
+	justify-content: center;
+}
+header div,
+nav {
+	margin: 1rem;
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+nav ul {
+	display: flex;
+}
+.logo {
+	justify-content: flex-start;
+}
+
+.product-search {
+	justify-content: flex-end;
+	padding: 1rem;
+	/* overflow: hidden; */
+}
+.product-search input {
+	width: 100%;
+	/* height:; */
+	background: transparent;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border: none;
+	border-bottom: solid 3px #666;
+	outline: none;
+}
+.product-search input[type] {
+	font-weight: 600;
+}
+.product-search a {
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+ul li {
+	padding: 1rem;
+}
+
+/* ERROR PAGA (404) */
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.err-code{
+    padding: 1rem;
+    font-size: 34px;
+    color: red;
+    font-weight: 600;
+}
+.err-txt{
+    padding: .5rem;
+    font-weight: 600;
+    font-size: 24px;
+}
+button{
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+button a{
+    color: black;
+    font-weight: 500;
+
+}

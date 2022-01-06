@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "api",
+			"path": "npm/",
+			"problemMatcher": [],
+			"label": "npm: api - npm",
+			"detail": "nodemon api"
+		}
+	]
+}
